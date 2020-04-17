@@ -1,2 +1,1 @@
-# php-exercicios
- Primeiros passos no PHP
+# Exercícios em PHP
