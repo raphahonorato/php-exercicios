@@ -21,7 +21,7 @@
     $a = "Raphael";
     $$a = "Honorato";
     echo "O conteúdo da variável A é $a";
-    echo "<br/>A variável criada recebeu $Raphael";
+    echo "<br/>A variável A recebeu $Raphael";
     ?>
     </div>
 </body>
