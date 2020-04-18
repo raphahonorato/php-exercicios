@@ -18,8 +18,11 @@
 <body>
     <div>
         <?php
-        echo "Raphael";
+        $valor = $_GET["v"];
+        $rq = sqrt($valor);
+        echo "A raiz quadrada de $valor é " . number_format($rq, 2);
         ?>
+        <a href="form.html">Voltar</a>
     </div>
 
 </body>
