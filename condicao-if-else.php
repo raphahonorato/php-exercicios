@@ -14,12 +14,10 @@
         echo "Vc nasceu em $a e terá $i anos <br/>";
         if ($i < 16) {
             $tipoVoto = "Não vota";
+        } elseif ($i >= 16 && $i < 18) {
+            $tipoVoto = "Voto Opcional";
         } else {
-            if ($i >= 16 && $i < 18) {
-                $tipoVoto = "Voto Opcional";
-            } else {
-                $tipoVoto = "Voto Obrigatório";
-            }
+            $tipoVoto = "Voto Obrigatório";
         }
         if ($i > 65) {
             $tipoVoto = "Velho demais, vota se quiser";
