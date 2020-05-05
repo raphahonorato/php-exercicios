@@ -9,9 +9,14 @@
 
 <body>
     <div>
-        <form method="get" action="mult-form.php">
-            <a href="mult-form.php" class="botao">Enviar</a>
-        </form>
+        <?php
+        $c = 20;
+        do {
+            echo "$c ";
+            $c--;
+        } while ($c >=5);
+        ?>
+        <a href="contador.html" class="botao">Voltar</a>
     </div>
 </body>
 

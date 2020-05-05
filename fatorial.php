@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../aulaPHP/_css/estilo.css" />
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+    <div>
+        <form method="get" action="contador.php">
+            
+            <a href="fatorial.html" class="botao">Enviar</a>
+        </form>
+    </div>
+</body>
+
+</html>
