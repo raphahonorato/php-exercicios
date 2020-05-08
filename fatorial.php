@@ -9,41 +9,18 @@
 
 <body>
     <div>
-        <?php
-        $n = $_GET['val'];
-        $n2 = $n1;
-        $tot = 0;
+        <form method="get" action="fatorial.php">
+            <?php
+            $v = isset($_GET["val"]) ? $_GET["val"] : 1;
 
-        while ($n >= 1) {
-            $n2 = $n2 - 1;
-            $tot = $n2 * $n2;
-            $n--;
-            echo "$tot <br>";
-        }
-        ?>
+
+
+            ?>
+            <input type="submit" value="Atualizar" class="botao" />
+            <input type="button" value="Atualizar" onClick="history.go(0)">
+            <input type="button" value="Voltar" onClick="history.go(-1)" class="botao">
         </form>
     </div>
 </body>
 
-//
-
-<?php
-
-    
-    
-        $v = isset($_GET["val"]) ? $_GET["val"] : 1;
-        echo "<h1>Calculando o fatorial de $v </h1>";
-        $c = $v;
-        $fat = 1;
-        do {
-            $fat= $fat * $c;
-            $c-= 1;
-        }while ($c >=1);
-        echo $c;
-        ?>
-
-        <a href="fatorial.html" class="botao">Voltar</a>
-*/
- ?>       
-//
 </html>
