@@ -10,14 +10,18 @@
 <body>
     <div>
         <?php
-        function soma ($a, $b)
-        { 
-            return $a + $b;;
+        function soma(){
+            $p = func_get_args();
+            $t = func_num_args();
+            $s = 0;
+            for($i = 0; $i < $t; $i++){
+                $s = $s +$p[$i];
+            }
+            return $s;
         }
-        $c = 3;
-        $d = 4;
-        $r = soma($c , $d);
-        echo"A soma entre $c e $d é igual a $r";
+        
+        $r = soma(1,1,1,1,1,1,1,1,1,1);
+        echo "A soma vale $r";
         ?>
 
         <input type="button" value="Atualizar" onClick="history.go(0)" class="botao">
