@@ -12,8 +12,10 @@
         <?php
        /*$letra = chr(100);
        echo "100 é o código de $letra";*/
-
-               
+       
+       $letra = "R";
+       $cod = ord($letra);
+       print $cod;
         ?>
 
         <input type="button" value="Atualizar" onClick="history.go(0)" class="botao">
