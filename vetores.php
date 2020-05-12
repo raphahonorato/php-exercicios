@@ -13,7 +13,7 @@
         <pre>
         <table>
         <?php
-        $n = array(1, 2, 3, 4);
+        /*$n = array(1, 2, 3, 4);
         $n[] = 5;
         print_r($n);
         echo "</br>";
@@ -26,6 +26,18 @@
         foreach($k as $valor){
             echo " $valor";
         }*/
+
+        $vetor = array(
+            "nome" => "Raphael",
+            "idade" => 24,
+            "peso" => 69.5
+        );
+        print_r($vetor);
+        $vetor["fuma"] = true;
+
+        foreach ($vetor as $campo => $valor) {
+            echo "O valor de $campo é $valor</br>";
+        }
         ?>
         </table>
         </pre>
