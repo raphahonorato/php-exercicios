@@ -18,7 +18,7 @@
         print_r($n);
         echo "</br>";
 
-        $valor = array(10 => "PAU", 2 => "BUCETA", 3 => "CÚ", 5 => "GRELO");
+        $valor = array(10 => "oi", 2 => "olá", 3 => "eu", 5 => "vc");
         $valor[] = "XERECA";
         unset($valor[2]);
         print_r($valor);
